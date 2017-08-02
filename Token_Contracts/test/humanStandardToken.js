@@ -39,7 +39,7 @@ contract('HumanStandardToken', function (accounts) {
     }).catch((err) => { throw new Error(err) })
   })
 
-// TRANSERS
+// TRANSFERS
 // normal transfers without approvals.
 
     // this is not *good* enough as the contract could still throw an error otherwise.
